@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  color:rgba(0, 0, 0, 0.8);
+}
+
+
+
+
+.custom-range {
+  -webkit-appearance: none;
+  height: 8px;
+  background: transparent;
+  outline: none;
+}
+
+
+.custom-range::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  background: #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+.custom-range::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  background: #ff00fb;
+  cursor: pointer;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin-top: -5px;
+}
+
+
+input[type="range"] {
+  -webkit-appearance: none;
+  height: 8px;
+  background: transparent;
+  outline: none;
+}
+
+input[type="range"]::-webkit-slider-runnable-track {
+  width: 100%;
+  height: 8px;
+  background: #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 18px;
+  height: 18px;
+  background: #ff00fb;
+  cursor: pointer;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin-top: -5px;
+}
+
+input[type="range"]::-moz-range-track {
+  width: 100%;
+  height: 8px;
+  background: #ddd;
+  border-radius: 8px;
+  box-sizing: border-box;
+}
+
+input[type="range"]::-moz-range-thumb {
+  width: 18px;
+  height: 18px;
+  background: #ff00fb;
+  cursor: pointer;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin-top: -5px;
+}
+
+input[type="range"]::-ms-track {
+  width: 100%;
+  height: 8px;
+  background: transparent;
+  border-color: transparent;
+  color: transparent;
+  border-radius: 8px;
+}
+
+input[type="range"]::-ms-fill-lower {
+  background: #ddd;
+  border-radius: 5px;
+}
+
+input[type="range"]::-ms-fill-upper {
+  background: #ddd;
+  border-radius: 5px;
+}
+
+input[type="range"]::-ms-thumb {
+  width: 18px;
+  height: 18px;
+  background: #ff00fb;
+  cursor: pointer;
+  border-radius: 50%;
+  box-sizing: border-box;
+  margin-top: -5px;
+}
